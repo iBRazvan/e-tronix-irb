@@ -629,7 +629,7 @@ span.text-red {
   }
   .hero-banner-image {
     position: absolute;
-    width: 100%;
+    width: auto;
     height: 75%;
     top: 8%;
     right: 0%;
