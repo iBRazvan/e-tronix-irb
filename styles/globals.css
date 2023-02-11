@@ -630,7 +630,7 @@ span.text-red {
   .hero-banner-image {
     position: absolute;
     width: auto;
-    height: 75%;
+    height: 70%;
     top: 8%;
     right: 0%;
   }
@@ -791,5 +791,15 @@ span.text-red {
     font-size: 15px;
     /* color: black; */
     align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-banner-image {
+    position: absolute;
+    width: auto;
+    height: 70%;
+    top: 8%;
+    right: -5%;
   }
 }
